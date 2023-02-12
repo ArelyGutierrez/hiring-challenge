@@ -1,17 +1,18 @@
 header{
-    margin: 5% 0 5% 0;
+    /* margin: 5% 0 5% 0; */
     /* height: 20vh; */
     /* width: 30vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: xx-large;
 }
 
 .subTitle{
     color: orange;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     
 }
 
@@ -21,14 +22,16 @@ li{
     border: 1px solid rgba(128, 128, 128, 0.624);
     padding-left: .5em;
     padding-right: .5em;
+    font-size:x-large;
    
 }
 .iconEdit{
-    height:5vh;
-    width: 3vw; 
+    height: 1em;
+    width: 1em; 
     align-items: flex-end;
     justify-content: end;
-    margin: 2% 1% 2% 90%/* Arriba | Derecha | Abajo | Izquierda */
+    margin-bottom: 2%;/* Arriba | Derecha | Abajo | Izquierda */
+    margin-left: 70%;
 }
 
 li:hover{

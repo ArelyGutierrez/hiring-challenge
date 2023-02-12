@@ -4,18 +4,32 @@ body{
 }
 
 .photoSection{
-    width: 45%;
-    height: 45%;
+
     /* flex-wrap: wrap; */
     align-content: flex-start;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
-/* @media only screen and (min-width: 768px) { */
-    /* For desktop: */
-    /* .photoSection1 {width:50%;}
-    .photoSection2 {width: 50%;}
-    .photoSection3 {width: 50%;}
-    .photoSection4 {width: 50%;}
-    .photoSection5 {width: 50%;}
-   
-  } */
+.photoSection1, .photoSection2, .photoSection3, .photoSection4{
+    width: 45vw;
+    height: 45vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .photoSection{
+
+        /* flex-wrap: wrap; */
+        align-content: flex-start;
+        display: grid;
+        grid-template-columns: auto;
+    }   
+    .photoSection1 {width:90%;}
+    .photoSection2 {width: 90%;}
+    .photoSection3 {width: 90%;}
+    .photoSection4 {width: 90%;}
+    .photoSection5 {width: 90%;}
+}
+  
+
+  
