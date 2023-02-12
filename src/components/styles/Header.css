@@ -1,0 +1,36 @@
+header{
+    margin: 5% 0 5% 0;
+    /* height: 20vh; */
+    /* width: 30vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subTitle{
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    border: 1px solid rgba(128, 128, 128, 0.624);
+    padding-left: .5em;
+    padding-right: .5em;
+   
+}
+.iconEdit{
+    height:18%;
+    width: 10%; 
+    align-items: flex-end;
+    justify-content: end;
+    margin: 2% 1% 2% 90%/* Arriba | Derecha | Abajo | Izquierda */
+}
+
+li:hover{
+    background-color: gainsboro;
+}

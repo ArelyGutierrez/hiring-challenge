@@ -1,0 +1,21 @@
+body{
+    margin: 2%;/* Arriba | Derecha | Abajo | Izquierda */ 
+    display: flex;
+}
+
+.photoSection{
+    width: 45%;
+    height: 45%;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+}
+
+/* @media only screen and (min-width: 768px) { */
+    /* For desktop: */
+    /* .photoSection1 {width:50%;}
+    .photoSection2 {width: 50%;}
+    .photoSection3 {width: 50%;}
+    .photoSection4 {width: 50%;}
+    .photoSection5 {width: 50%;}
+   
+  } */
