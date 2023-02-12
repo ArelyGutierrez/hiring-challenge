@@ -24,8 +24,8 @@ li{
    
 }
 .iconEdit{
-    height:18%;
-    width: 10%; 
+    height:5vh;
+    width: 3vw; 
     align-items: flex-end;
     justify-content: end;
     margin: 2% 1% 2% 90%/* Arriba | Derecha | Abajo | Izquierda */
@@ -34,3 +34,4 @@ li{
 li:hover{
     background-color: gainsboro;
 }
+
