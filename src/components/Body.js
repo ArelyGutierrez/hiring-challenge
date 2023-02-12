@@ -1,16 +1,27 @@
 import './styles/Body.css'
-import photo1 from '../images/photo1.png';
-import photo2 from '../images/photo2.png';
-import photo3 from '../images/photo3.png';
-import photo4 from '../images/photo4.png';
 
 export function Body(){
     return(
         <body className='photoSection'>
-            <section>
-                <h2>Title</h1>
+            <section className="photoSection1">
+                <h2>Title</h2>
                 <h3>comments</h3>
-                <p></p>
+                <p>text description</p>
+            </section>
+            <section className="photoSection2">
+                <h2>Title</h2>
+                <h3>comments</h3>
+                <p>text description</p>
+            </section>
+            <section className="photoSection3">
+                <h2>Title</h2>
+                <h3>comments</h3>
+                <p>text description</p>
+            </section>
+            <section className="photoSection4">
+                <h2>Title</h2>
+                <h3>comments</h3>
+                <p>text description</p>
             </section>
             {/* <img src={photo1} className="photoSection1" alt="photoSection" />
             <img src={photo2} className="photoSection2" alt="photoSection" />

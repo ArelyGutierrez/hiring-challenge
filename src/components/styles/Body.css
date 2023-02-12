@@ -1,3 +1,4 @@
+
 body{
     margin: 2%;/* Arriba | Derecha | Abajo | Izquierda */ 
     display: flex;
@@ -9,11 +10,25 @@ body{
     align-content: flex-start;
     display: grid;
     grid-template-columns: auto auto;
+    color: white;
+    font-size: 3em;
 }
 
 .photoSection1, .photoSection2, .photoSection3, .photoSection4{
     width: 45vw;
     height: 45vh;
+}
+.photoSection1{
+    background-image: url('../../images/photo1.png');
+}
+.photoSection2{
+    background-image: url('../../images/photo2.png');
+}
+.photoSection3{
+    background-image: url('../../images/photo3.png');
+}
+.photoSection4{
+    background-image: url('../../images/photo4.png');
 }
 
 @media only screen and (max-width: 768px) {
